@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+
+body{
+    max-width: 1440px;
+    height: 100%;
+    background: url(../images/bg-desktop.svg) center center;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.header .logo{
+    height: 42px;
+    margin: 40px 0 0 52px;
+}
+
+.container{
+    display: flex;
+    max-width: 1440px;
+    height: 420px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container .telas{
+    max-width: 665px;
+}
+
+.container .telas img{
+    width: 83%;
+    margin-top: 48px;  
+    margin-left: 58px;
+}
+
+.container .info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    max-width: 30%;
+    height: 100%;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.container .info .texto h2{
+    font-size: 30px;
+}
+
+.container .info .texto p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.container .info .btn{
+    width: 160px;
+    padding: 12px 3px;
+    border-radius: 25px;
+    border: none;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 20%;
+}
+
+.container .info .btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.container .info .footer{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    margin-top: 10%;
+}
+
+.container .info .footer a i{
+    width: 35px;
+    text-align: center;
+    margin: 8px;
+    padding: 10px;
+    color: #fff;
+    border: #fff solid 1px;
+    border-radius: 50%;
+}
+
+.container .info .footer a:hover i{
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
